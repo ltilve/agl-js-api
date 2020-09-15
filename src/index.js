@@ -7,6 +7,7 @@ import * as network from './network';
 import * as homescreen from './homescreen';
 import * as lowcan from './low-can';
 import * as mediaplayer from './mediaplayer';
+import * as platformInfo from './platform-info';
 import * as api from './api';
 
 api.init();
@@ -20,5 +21,6 @@ export {
     homescreen,
     lowcan,
     mediaplayer,
+    platformInfo,
     api
 }
