@@ -1,6 +1,6 @@
 import { call as api_call, subscribe as api_subscribe } from './api';
 
-export function current_weather() {
+export function current_weather_test() {
     return api_call("weather/current_weather", {});
 }
 
