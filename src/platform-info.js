@@ -4,6 +4,6 @@ export function get_platform_info() {
     return api_call("platform-info/get", {});
 }
 
-export function get_platform_info_test() {
-    return "test-call";
+export function platform_info_test() {
+    return api_call("platform-info/get", {});
 }
